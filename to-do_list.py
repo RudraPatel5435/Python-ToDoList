@@ -7,7 +7,7 @@ def add():
     global num1
     name = input("Enter task name: ")
     des = input("Enter task Description: ")
-    date = input("Enter task due date (YYYY-MM-DD): ")
+    date = input("Enter task due date (DD-MM-YYYY): ")
     tasks[num1] = {
         "name": name,
         "des": des,
